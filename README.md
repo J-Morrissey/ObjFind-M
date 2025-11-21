@@ -12,7 +12,7 @@ We provide two ready-to-use scripts:
 •	ObjFind-M iCHO2441.py → runs on a large genome-scale model (iCHO2441) to capture the full complexity of CHO cell metabolism.
 
 
-What does it do?
+<h1> What does it do?  </h1>
 
 -Reads in published fluxomics and metabolomics data.  
 -Fits these data to a metabolic network model.  
@@ -21,7 +21,7 @@ What does it do?
 
 This lets you see which reactions (like ATP synthase, TCA cycle steps, or lipid shuttles) are most central to cell objectives under different conditions.
 
-How to run
+</h1> How to run </h1>
 
 1.	Make sure you have Python 3 and the following libraries installed:
 o	COBRApy
@@ -33,7 +33,7 @@ o	A solver such as Ipopt.
 3.	Run "ObjFind-M CHOmpact.py" or "ObjFind-M iCHO2441.py"
 4.	Results are saved to Excel files (coefficients and fluxes).
    
-Repository contents
+ </h1> Repository contents </h1>
 •	ObjFind-M CHOmpact.py – example run using the reduced CHOmpact model.  
 •	ObjFind-M iCHO2441.py – example run using the iCHO2441 genome-scale model.  
 •	Mapping and data files (Excel sheets) – link experimental data to model reactions.  
